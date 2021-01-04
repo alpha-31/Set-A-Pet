@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.0.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 03, 2021 at 01:02 PM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.4.6
+-- Generation Time: Jan 04, 2021 at 12:55 PM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.2.34
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,7 +41,7 @@ CREATE TABLE `customer` (
 
 INSERT INTO `customer` (`Cust_Id`, `Cust_name`, `Cust_Email`, `Cust_Number`, `Cust_Pass`) VALUES
 ('cs1', 'Muhammad Talha Munir', '1talhamunir@gmail.com', 1231, '111'),
-('cs2', 'Muhammad Talha Munir', '1talhamunir@gmail.com', 23, '111'),
+('cs2', 'Sheikwww', '87797@gmail.com', 45677, '456123'),
 ('cs3', 'sheikh', '1talhamunir@gmail.com', 2232, '111');
 
 -- --------------------------------------------------------
@@ -114,6 +114,20 @@ CREATE TABLE `product` (
   `P_for` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` bigint(20) NOT NULL,
+  `user_id` bigint(20) NOT NULL,
+  `user_name` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `date` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 --
 -- Indexes for dumped tables
 --
@@ -158,6 +172,24 @@ ALTER TABLE `pet_show`
 --
 ALTER TABLE `product`
   ADD PRIMARY KEY (`Product_Id`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `date` (`date`),
+  ADD KEY `user_name` (`user_name`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
 
 --
 -- Constraints for dumped tables
