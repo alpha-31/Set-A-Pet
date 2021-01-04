@@ -1,0 +1,66 @@
+// custom variables and override bootstrap variables
+
+//== Colors
+$black:											#000;
+$white:											#fff;
+$clr-1:											#777;
+$clr-2:											#00b7ff;
+$clr-3:											#898989;
+$clr-4:											#b0c83e;
+$clr-5:											#e8e8e8;
+$clr-6:											#333;
+$clr-7:											#ededed;
+$clr-8:											#666666;
+$clr-9:											#e0e0e0;
+$clr-10:										#3a3a3a;
+$clr-11:										#999999;
+$clr-12:										#232323;
+$clr-13:										#f4f4f4;
+$clr-14:										#cbcbcb;
+$clr-15:										#777777;
+$clr-16:										#f5f5f5;
+$clr-17:										#e4e4e4;
+$clr-18:										#c3c3c3;
+$clr-19:										#acacac;
+$clr-20:										#f8f8f8;
+$clr-21:										#dddddd;
+$clr-22:										#eaeaea;
+
+
+//== Scaffolding
+$text-color:									$clr-1;
+$link-color:									$clr-1;
+
+//== Typography
+$font-family-sans-serif:						'Dosis', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$heading-font-family-sans:						'Nunito', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-base:								19px;
+$line-height-base:								1.421;
+$headings-font-family:							$heading-font-family-sans;
+$headings-font-weight:							700;
+$headings-color:								$clr-1;
+
+
+
+//== Navbar
+$navbar-height:									1px;
+$navbar-margin-bottom:							0;
+$navbar-border-radius:							0;
+$navbar-padding-horizontal:						0;
+$navbar-padding-vertical:						0;
+$navbar-default-color:							$white;
+$navbar-default-bg:								transparent;
+$navbar-default-border:							transparent;
+$navbar-default-toggle-hover-bg:				transparent;
+$navbar-default-toggle-icon-bar-bg:				$white;
+$navbar-default-toggle-border-color:			transparent;
+
+
+//== Forms
+$input-bg:										$black;
+$input-color:									$black;
+//$input-border:								$clr11;
+$input-border-radius:							0;
+//$input-border-focus:							$clr3;
+$input-color-placeholder:						$black;
+$form-group-margin-bottom:						16px;

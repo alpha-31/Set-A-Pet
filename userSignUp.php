@@ -1,3 +1,30 @@
+<?php 
+ 	session_start() ;
+ 	include("connections.php");
+ 	include("functions.php");
+
+ 	if($_SERVER['REQUEST_METHOD'] == "POST")
+	{
+		$user_name = $_POST['user_name'];
+		$password = $_POST['password'];
+
+		if(!empty($user_name) && !empty($password) && !is_numeric($user_name))
+		{
+
+			//save to database
+			$user_id = random_num(20);
+			$query = "INSERT INTO USERS(user_id,user_name,password) VALUES ('$user_id','$user_name','$password')";
+
+			mysqli_query($con, $query);
+
+			header("Location: userLogin.php");
+			die;
+		}else
+		{
+			echo "Values Incoreect Kindly enter some valid information!";
+		}
+	}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,25 +59,25 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" method="post">
 					<span class="login100-form-title p-b-49">
 						Sign Up
 					</span>
 
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is required">
 						<span class="label-input100">Username</span>
-						<input class="input100" type="text" name="username" placeholder="Type your username">
+						<input class="input100" type="text" name="user_name" placeholder="Type your username">
 						<span class="focus-input100" data-symbol="&#xf206;"></span>
 					</div>
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "Email is required">
 						<span class="label-input100">Email</span>
-						<input class="input100" type="text" name="username" placeholder="Type your email">
+						<input class="input100" type="text" name="email" placeholder="Type your email">
 						<span class="focus-input100" data-symbol="&#xf206;"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
 						<span class="label-input100">Password</span>
-						<input class="input100" type="password" name="pass" placeholder="Type your password">
+						<input class="input100" type="password" name="password" placeholder="Type your password">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
 					<div class="text-right p-t-8 p-b-31">
@@ -82,7 +109,7 @@
 							<i class="fa fa-twitter"></i>
 						</a>
 
-						<a href="login.html" class="login100-social-item bg3">
+						<a href="userLogin.php" class="login100-social-item bg3">
 							<i class="fa fa-google"></i>
 						</a>
 					</div>
