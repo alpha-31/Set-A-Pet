@@ -126,16 +126,16 @@ $conn->close();
 
 					<div class="txt1 text-center p-t-54 p-b-20">
 						<span>
-							Log in Using
+							Log in Using   
 						</span>
 					</div>
 
 					<div class="flex-c-m">
-						<a href="login.html" class="login100-social-item bg1">
+						<a href="userLogin.php" class="login100-social-item bg1">
 							<i class="fa fa-facebook"></i>
 						</a>
 
-						<a href="login.html" class="login100-social-item bg2">
+						<a href="userLogin.php" class="login100-social-item bg2">
 							<i class="fa fa-twitter"></i>
 						</a>
 

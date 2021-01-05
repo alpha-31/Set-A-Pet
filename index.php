@@ -364,7 +364,7 @@ session_start() ;
 					</div>
 				</div>
 				<div class="text-center">
-					<a href="shop.html" class="btn-primary lg-round text-uppercase view-all">view all</a>
+					<a href="shop.php" class="btn-primary lg-round text-uppercase view-all">view all</a>
 				</div>
 			</section>
 			<section class="feature-sec bg-full overlay" style="background: lightgrey;">

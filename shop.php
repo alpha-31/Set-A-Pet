@@ -415,30 +415,31 @@ session_start() ;
 						</div>
 						<p>It is a long established fact that a reader <br class="hidden-xs">distracted by the readable content</p>
 						<ul class="contact-list list-unstyled">
-							<li><span class="icon"><i class="fa fa-map-signs" aria-hidden="true"></i></span> No: 801, petty shop, Australia.</li>
-							<li><a href="mailto:pettyshop@mail.com"><span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>pettyshop@mail.com</a></li>
-							<li><a href="#"><span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span> (+23) 900 8990 000 </a></li>
+							<li><span class="icon"><i class="fa fa-map-signs" aria-hidden="true"></i></span> Sukkur IBA Univeristy, Pakistan</li>
+							<li><a href="mailto:sheikhabdul.bcss19@iba-suk.edu.pk"><span class="icon"><i class="fa fa-envelope-o" aria-hidden="true">pet@bazaar.pk</i></span></a></li>
+							<li><a href="#tell:071345678000"><span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span> (071) 345 678 000 </a></li>
+							
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-2">
 						<h3>Information</h3>
 						<ul class="info-list list-unstyled">
-							<li><a href="#"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Pet Adoption</a></li>
-							<li><a href="#"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Active Dogs</a></li>
-							<li><a href="#"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Pet Daycare</a></li>
-							<li><a href="#"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Dog Training</a></li>
-							<li><a href="#"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Pet Helpcare</a></li>
+							<li><a href="index.php"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Pet Adoption</a></li>
+							<li><a href="index.php"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Active Dogs</a></li>
+							<li><a href="index.php"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Pet Daycare</a></li>
+							<li><a href="index.php"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Dog Training</a></li>
+							<li><a href="index.php"><span class="icon"><i class="fa fa-angle-right" aria-hidden="true"></i></span>Pet Helpcare</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-3">
 						<h3>Instagram</h3>
 						<ul class="insta-list list-unstyled">
-							<li><a href="#"><img src="https://via.placeholder.com/70x70" alt="footer-img" class="img-responsive"></a></li>
-							<li><a href="#"><img src="https://via.placeholder.com/70x70" alt="footer-img" class="img-responsive"></a></li>
-							<li><a href="#"><img src="https://via.placeholder.com/70x70" alt="footer-img" class="img-responsive"></a></li>
-							<li><a href="#"><img src="https://via.placeholder.com/70x70" alt="footer-img" class="img-responsive"></a></li>
-							<li><a href="#"><img src="https://via.placeholder.com/70x70" alt="footer-img" class="img-responsive"></a></li>
-							<li><a href="#"><img src="https://via.placeholder.com/70x70" alt="footer-img" class="img-responsive"></a></li>
+							<li><a href="#"><img src="images/s6.jpg" alt="footer-img" class="img-responsive"></a></li>
+							<li><a href="#"><img src="images/s5.jpg" alt="footer-img" class="img-responsive"></a></li>
+							<li><a href="#"><img src="images/s7.jpg" alt="footer-img" class="img-responsive"></a></li>
+							<li><a href="#"><img src="images/s8.jpg" alt="footer-img" class="img-responsive"></a></li>
+							<li><a href="#"><img src="images/s9.jpg" alt="footer-img" class="img-responsive"></a></li>
+							<li><a href="#"><img src="images/s10.jpg" alt="footer-img" class="img-responsive"></a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-3">

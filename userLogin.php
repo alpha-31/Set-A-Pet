@@ -11,10 +11,11 @@ session_start();
 		//something was posted
 		$user_name = $_POST['user_name'];
 		$password = $_POST['password'];
-
+		header("Location cart.php");
+		echo "Okay" ;
 		if(!empty($user_name) && !empty($password) && !is_numeric($user_name))
 		{
-
+			
 			$query = "select * from users where user_name = '$user_name' limit 1";
 			$result = mysqli_query($con, $query);
 
@@ -27,7 +28,7 @@ session_start();
 					
 					if($user_data['password'] === $password)
 					{
-
+						echo "Okay";
 						$_SESSION['user_id'] = $user_data['user_id'];
 						header("Location: cart.php");
 						die;
@@ -94,17 +95,15 @@ session_start();
 						<input class="input100" type="password" name="password" placeholder="Type your password">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
-					
 					<div class="text-right p-t-8 p-b-31">
-						<a href="#">
-							Forgot password?
-						</a>
+						
 					</div>
+					
 					
 					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<button class="login100-form-btn">
+							<button class="login100-form-btn" name="submit">
 								Login
 							</button>
 						</div>
