@@ -34,7 +34,7 @@ session_start() ;
 				<div class="row">
 					<div class="col-xs-12 hidden visible-xs">
 						<ul class="list-unstyled social-network text-center">
-							<li><a href="mailto:petty@support.com"><i class="icon-message" aria-hidden="true"></i></a></li>
+							<li><a href="mailto:"><i class="icon-message" aria-hidden="true"></i></a></li>
 							<li><a href="tell:1345678000"><i class="icon-phone-call" aria-hidden="true"></i></a></li>
 							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>

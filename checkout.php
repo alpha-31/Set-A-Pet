@@ -137,12 +137,12 @@ session_start() ;
 										<div class="form-group">
 											<div class="holder">
 												<div class="col">
-													<label>First Name <span class="sign">*</span></label>
-													<input class="form-control element-block" placeholder="" type="text">
+													<label>First Name <span class="sign" >*</span></label>
+													<input class="form-control element-block" placeholder="" type="text" required>
 												</div>
 												<div class="col">
 													<label>Last Name<span class="sign">*</span></label>
-													<input class="form-control element-block" placeholder="" type="text">
+													<input class="form-control element-block" placeholder="" type="text" required>
 												</div>
 											</div>
 											<label>Company Name<span class="sign">*</span></label>
@@ -174,8 +174,8 @@ session_start() ;
 											<label>Country<span class="sign">*</span></label>
 											<select class="form-control">
 												<option value="0">United States</option>
-												<option value="1">United States</option>
-												<option value="2">United States</option>
+												<option value="1">Pakistan</option>
+												<option value="2">India</option>
 											</select>
 										</div>
 										<div class="form-group">
@@ -207,20 +207,20 @@ session_start() ;
 							</thead>
 							<tbody>
 								<tr>
-									<td>Pets Puriest  × 1</td>
-									<td>34.00</td>
+									<td>Cat with A dog  × 1</td>
+									<td>1340.00</td>
 								</tr>
 								<tr>
-									<td>Nutri Vitamin+ × 1</td>
-									<td>$40.00</td>
+									<td>Pet  puriest × 1</td>
+									<td>$340.00</td>
 								</tr>
 								<tr class="total">
 									<td>Sub-Total</td>
-									<td class="clr">$74.00</td>
+									<td class="clr">$1680.00</td>
 								</tr>
 								<tr class="total">
 									<td>Total</td>
-									<td class="clr">$74.00</td>
+									<td class="clr">$1680.00</td>
 								</tr>
 							</tbody>
 						</table>

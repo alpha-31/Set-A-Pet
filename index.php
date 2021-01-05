@@ -69,7 +69,7 @@ session_start() ;
 								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 							</ul>
 							<ul class="list-unstyled account-cart">
-								<li><a href="register.php"><i class="icon-user"></i><span class="hidden-xs">Account</span></a></li>
+								<li><a href="userSignup.php"><i class="icon-user"></i><span class="hidden-xs">Account</span></a></li>
 								<li><a href="userLogin.php"><i class="icon-cart"></i><span class="hidden-xs">Cart</span></a></li>
 							</ul>
 						</div>
