@@ -1,0 +1,23 @@
+/* @function log($message) {
+  @if feature-exists('at-error') {
+    @error $message;
+  } @else {
+    @warn $message;
+    $_: noop();
+  }
+
+  @return $message;
+} */
+/* @mixin media($conditions...) {
+  @if ($im-media-support and length($conditions) == 0) or 
+      (not $im-media-support and im-intercepts-static-breakpoint($conditions...)) {
+    @content;
+  } @else if ($im-media-support and length($conditions) > 0) {
+    @media  {
+      // Recursive call
+      @include media(slice($conditions, 2)...) {
+        @content;
+      }
+    }    
+  }
+} */
