@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 04, 2021 at 12:55 PM
+-- Generation Time: Jan 05, 2021 at 05:51 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.2.34
 
@@ -28,21 +28,12 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `customer` (
-  `Cust_Id` varchar(10) NOT NULL,
+  `user_name` varchar(10) NOT NULL,
   `Cust_name` varchar(30) NOT NULL,
   `Cust_Email` varchar(30) NOT NULL,
-  `Cust_Number` int(30) NOT NULL,
+  `Cust_Number` varchar(30) NOT NULL,
   `Cust_Pass` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `customer`
---
-
-INSERT INTO `customer` (`Cust_Id`, `Cust_name`, `Cust_Email`, `Cust_Number`, `Cust_Pass`) VALUES
-('cs1', 'Muhammad Talha Munir', '1talhamunir@gmail.com', 1231, '111'),
-('cs2', 'Sheikwww', '87797@gmail.com', 45677, '456123'),
-('cs3', 'sheikh', '1talhamunir@gmail.com', 2232, '111');
 
 -- --------------------------------------------------------
 
@@ -129,6 +120,16 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `user_id`, `user_name`, `password`, `date`) VALUES
+(1, 7788011516, 'Sheikh@443', '1234', '2021-01-04 14:12:27'),
+(2, 90063844705, 'Sheikh@444', '1223', '2021-01-04 14:39:26'),
+(3, 9223372036854775807, 'Sheikh@1', '1122', '2021-01-04 14:58:24'),
+(4, 69996933111405765, 'Sheikh', '1122', '2021-01-04 22:15:31');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -136,7 +137,7 @@ CREATE TABLE `users` (
 -- Indexes for table `customer`
 --
 ALTER TABLE `customer`
-  ADD PRIMARY KEY (`Cust_Id`);
+  ADD PRIMARY KEY (`user_name`);
 
 --
 -- Indexes for table `orders`
@@ -189,7 +190,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- Constraints for dumped tables
@@ -199,7 +200,7 @@ ALTER TABLE `users`
 -- Constraints for table `orders`
 --
 ALTER TABLE `orders`
-  ADD CONSTRAINT `ordercustfk` FOREIGN KEY (`Cust_Id`) REFERENCES `customer` (`Cust_Id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `ordercustfk` FOREIGN KEY (`Cust_Id`) REFERENCES `customer` (`user_name`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `orderownerfk` FOREIGN KEY (`Owner_Id`) REFERENCES `owner` (`Owner_ID`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`Pet_Id`) REFERENCES `pets` (`Pet_Id`);
 

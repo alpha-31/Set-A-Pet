@@ -60,7 +60,7 @@ border: 3px solid  #b40a70;background-color: #8d2663;color:#f2f2f2;font-size:15p
 </form> 
 <form method="post" action="customerupdate.php">  
 <fieldset>
-<input type="text" name="id" placeholder="Enter the customer id" style="width:100%;height:30px;
+<input type="text" name="uname" placeholder="Enter the customer user name " style="width:100%;height:30px;
     border: 2px solid  #b40a70; border-radius:5px; background:transparent;" required>
   <br><br>
  <input type="text" name="name" placeholder="Enter customer name" style="width:100%;height:30px;
@@ -98,20 +98,20 @@ if ($conn->connect_error) {
 } 
 //echo "  CONNECTION ESTABLISHED \r\n";
 //echo "  INSERTION IN PROCESS";
-$id = $_POST["id"];
+$id = $_POST["uname"];
   $name = $_POST["name"];
   $email= $_POST["email"];
   $number = $_POST["number"];
   $pass = $_POST["pass"];
 
 
-  $Query2="select count(*) from customer where Cust_Id='$id'";
+  $Query2="select count(*) from customer where user_name='$id'";
   $Execute = mysqli_query($conn,$Query2);
   $count = mysqli_fetch_row($Execute);
   if($count[0]==1)
   {
     $sql = "UPDATE customer set Cust_name='$name',Cust_Email='$email' ,Cust_Number='$number',Cust_Pass='$pass'
-    where Cust_Id='$id'";
+    where user_name='$id'";
   if ($conn->query($sql) == TRUE) {
     echo'<div>
     <h1 style="color:#f2f2f2;font-size:20px; font-family: "Roboto", sans-serif;margin:auto;">'

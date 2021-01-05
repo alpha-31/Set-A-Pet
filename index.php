@@ -206,7 +206,7 @@ session_start() ;
 							<li><a href="#"><span class="icon"><i class="icon-food"></i></span><h3>Foods</h3></a> </li>
 						</ul>
 					</div>
-				</div>
+				</di	v>
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="product-block">
@@ -223,8 +223,8 @@ session_start() ;
 									</div>
 								</div>
 								<div class="descrip">
-									<h3 class="heading2">Pawbits Joint</h3> 
-									<span class="price">$134.00</span>		
+									<h3 class="heading2">German Shepherd</h3> 
+									<span class="price">$1340.00</span>		
 								</div>
 								<div class="text-center">
 									<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -242,8 +242,8 @@ session_start() ;
 									</div>
 								</div>
 								<div class="descrip">
-									<h3 class="heading2">Vitamin K2</h3>
-									<span class="price">$28.00</span>
+									<h3 class="heading2">Cat With Dog European</h3>
+									<span class="price">$2080.00</span>
 								</div> 
 								<div class="text-center">
 									<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -262,7 +262,7 @@ session_start() ;
 									</div>
 								</div>
 								<div class="descrip">
-									<h3 class="heading2">Maxxiflex+</h3><span class="price">$28.00</span>
+									<h3 class="heading2">Maxxiflex+</h3><span class="price">$2850.00</span>
 								</div>
 								<div class="text-center">
 									<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -281,7 +281,7 @@ session_start() ;
 								</div>
 								<strong class="text-uppercase">sold out!</strong>
 								<div class="descrip">
-									<h3 class="heading2">Premier Pet+</h3><span class="price">$42.00</span>
+									<h3 class="heading2">Premier Kittens+</h3><span class="price">$420.00</span>
 								</div>
 								<div class="text-center">
 									<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -299,7 +299,7 @@ session_start() ;
 									</div>
 								</div>
 								<div class="descrip">
-									<h3 class="heading2">Calcium Pills</h3><span class="price">$30.00</span>
+									<h3 class="heading2">Brown Kittenz</h3><span class="price">$300.00</span>
 								</div>
 								<div class="text-center">
 									<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -318,7 +318,7 @@ session_start() ;
 									<span class="sale-item">Sale!</span>
 								</div>
 								<div class="descrip">
-									<h3 class="heading2">Vitamin D3</h3><span class="price"><del class="discount-price">$45.00</del> $42.00</span>
+									<h3 class="heading2">Puppies</h3><span class="price"><del class="discount-price">$45.00</del> $420.00</span>
 								</div>
 								<div class="text-center">
 									<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -336,7 +336,7 @@ session_start() ;
 									</div>
 								</div>
 								<div class="descrip">
-									<h3 class="heading2">Pets Puriest</h3><span class="price">$28.00</span>
+									<h3 class="heading2">Puriest Pet</h3><span class="price">$280.00</span>
 								</div>
 								<div class="text-center">
 									<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -354,7 +354,7 @@ session_start() ;
 									</div>
 								</div>
 								<div class="descrip">
-									<h3 class="heading2">Nutri-Pooch</h3><span class="price"><del class="discount-price">$62.00</del> $58.00</span>
+									<h3 class="heading2">Mature Cat</h3><span class="price"><del class="discount-price">$620.00</del> $580.00</span>
 								</div>
 								<div class="text-center">
 									<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>

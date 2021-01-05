@@ -87,7 +87,7 @@ die("could not connect".mysql_error());
 $var=mysqli_query($con,"select * from customer ");
 echo "<table>";
 echo "<tr>
-<th>Cust_Id</th>
+<th>Cust_Username</th>
 <th>Cust_name</th>
 <th>Cust_Email</th>
 <th>Cust_Number</th>

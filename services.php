@@ -158,7 +158,7 @@ session_start() ;
 					<div class="row">
 						<div class="col-xs-12 col-sm-6">
 							<div class="services-holder">
-								<div class="img-holder"><img src="https://via.placeholder.com/215x200" alt="Pet Adoption" class="img-responsive"></div>
+								<div class="img-holder"><img src="images/s15.jpg" alt="Pet Adoption" class="img-responsive"></div>
 								<div class="txt-holder">
 									<h3 class="heading2">Pet Adoption</h3>
 									<p>It is a long established fact that a reader looking at its layout the point</p>
@@ -168,7 +168,7 @@ session_start() ;
 						</div>
 						<div class="col-xs-12 col-sm-6">
 							<div class="services-holder">
-								<div class="img-holder"><img src="https://via.placeholder.com/215x200" alt="Pet Grooming" class="img-responsive"></div>
+								<div class="img-holder"><img src="images/s11.jpg" alt="Pet Grooming" class="img-responsive"></div>
 								<div class="txt-holder">
 									<h3 class="heading2">Pet Grooming</h3>
 									<p>It is a long established fact that a reader looking at its layout the point</p>
@@ -178,7 +178,7 @@ session_start() ;
 						</div>
 						<div class="col-xs-12 col-sm-6">
 							<div class="services-holder">
-								<div class="img-holder"><img src="https://via.placeholder.com/215x200" alt="Pet Daycare" class="img-responsive"></div>
+								<div class="img-holder"><img src="images/daycare.jpg" alt="Pet Daycare" class="img-responsive"></div>
 								<div class="txt-holder">
 									<h3 class="heading2">Pet Daycare</h3>
 									<p>It is a long established fact that a reader looking at its layout the point</p>
@@ -188,7 +188,7 @@ session_start() ;
 						</div>
 						<div class="col-xs-12 col-sm-6">
 							<div class="services-holder">
-								<div class="img-holder"><img src="https://via.placeholder.com/215x200" alt="Dog Training" class="img-responsive"></div>
+								<div class="img-holder"><img src="images/daytrain.jpg" alt="Dog Training" class="img-responsive"></div>
 								<div class="txt-holder">
 									<h3 class="heading2">Dog Training</h3>
 									<p>It is a long established fact that a reader looking at its layout the point</p>
@@ -212,29 +212,29 @@ session_start() ;
 							<fieldset>
 								<div class="form-group">
 									<div class="col">
-										<input class="form-control" placeholder="Name" type="text">
+										<input class="form-control" placeholder="Name" type="text" required>
 									</div>
 									<div class="col">
-										<input class="form-control" placeholder="Date" type="text">
+										<input class="form-control" placeholder="Date" type="text" required>
 										<span class="icon icon-calendar"></span>
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="col">
-										<input class="form-control" placeholder="Pet Type" type="text">
+										<input class="form-control" placeholder="Pet Type" type="text" required>
 										<span class="icon fa fa-paw"></span>
 									</div>
 									<div class="col">
-										<input class="form-control" placeholder="Email" type="email">
+										<input class="form-control" placeholder="Email" type="email" required>
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="col">
-										<input class="form-control" placeholder="Time" type="text">
+										<input class="form-control" placeholder="Time" type="text" required>
 										<span class="icon icon-clock"></span>
 									</div>
 									<div class="col">
-										<select class="form-control">
+										<select class="form-control" required>
 											<option value="0">Service we offered</option>
 											<option value="1">Grooming</option>
 											<option value="2">Adoption</option>

@@ -134,29 +134,30 @@ session_start() ;
 										<td class="Product">
 											<a href="#" class="btn-remove fa fa-times"></a>
 											<div class="img-holder">
-												<img src="https://via.placeholder.com/90x90" alt="image description" class="img-resposnive">
+												<img src="images/s12.jpg" alt="image description" class="img-resposnive">
 											</div>
+											<br>
 											<span class="descr-wrap">Pets Puriest</span>
 										</td>
-										<td class="price"><span><strong class="price element-block"> $34.00</strong></span></td>
+										<td class="price"><span><strong class="price element-block"> $340.00</strong></span></td>
 										<td class="Quantity">
 											<input type="number" class="form-control text-center" min="0" value="1">
 										</td>
-										<td class="Total"><strong class="element-block price"> $34.00</strong></td>
+										<td class="Total"><strong class="element-block price"> $340.00</strong></td>
 									</tr>
 									<tr>
 										<td class="Product">
 											<a href="#" class="btn-remove fa fa-times"></a>
 											<div class="img-holder">
-												<img src="https://via.placeholder.com/90x90" alt="image description" class="img-responsive">
+												<img src="images/s2.jpg" alt="image description" class="img-responsive">
 											</div>
-											<span class="descr-wrap">Nutri Vitamin+</span>
+											<span class="descr-wrap">Cat With A dog</span>
 										</td>
-										<td class="price"><span><strong class="price element-block"> $34.00</strong></span></td>
+										<td class="price"><span><strong class="price element-block"> $1340.00</strong></span></td>
 										<td class="Quantity">
 											<input type="number" class="form-control text-center" min="0" value="1">
 										</td>
-										<td class="Total"><strong class="element-block price"> $34.00</strong></td>
+										<td class="Total"><strong class="element-block price"> $1340.00</strong></td>
 									</tr>
 								</tbody>
 							</table>
@@ -177,11 +178,11 @@ session_start() ;
 							<ul class="list-unstyled cart-total">
 								<li>
 									<strong class="title pull-left">Sub-Total</strong>
-									<strong class="price pull-right">$74.00</strong>
+									<strong class="price pull-right">$1680.00</strong>
 								</li>
 								<li>
 									<strong class="title pull-left">Total</strong>
-									<strong class="price pull-right">$74.00</strong>
+									<strong class="price pull-right">$1680.00</strong>
 								</li>
 							</ul>
 							<a href="checkout.php" class="btn-primary text-center text-uppercase">proceed to checkout</a>

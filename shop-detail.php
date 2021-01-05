@@ -124,17 +124,17 @@ session_start() ;
 								<div class="block">
 									<div class="product-slider">
 										<div class="slide">
-											<img src="https://via.placeholder.com/205x205" alt="image" class="img-responsive">
+											<img src="images/s2.jpg" alt="image" class="img-responsive">
 										</div>
 									</div>
 									<ul class="list-unstyled slick-slider pagg-slider">
-							            <li><img src="https://via.placeholder.com/75x75" alt="image description"></li>
-							        	<li><img src="https://via.placeholder.com/75x75" alt="image description"></li>
+							            <li><img src="images/s1.jpg" alt="image description"></li>
+							        	
 							        </ul>
 							    </div>
 								<div class="text-holder">
-									<h3>Pawbits Joint</h3> 
-									<span class="price">$134.00</span>	
+									<h3>Cat with a Dog</h3> 
+									<span class="price">$1340.00</span>	
 									<p>There are many variations of passages of Lorem Ipsum as available, but the majority have suffered alteration in some form, by injected humour, or randomised words which buy don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>	
 									<form class="select-form">
 										<fieldset>
@@ -175,7 +175,7 @@ session_start() ;
 								<div class="product-box">
 									<div class="product-col">
 										<div class="img-holder">
-											<img src="https://via.placeholder.com/210x210" alt="food-img" class="img-responsive">
+											<img src="images/s12.jpg" alt="food-img" class="img-responsive">
 											<div class="over-holder">
 												<ul class="list-unstyled text-center share-list">
 													<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
@@ -185,8 +185,8 @@ session_start() ;
 											</div>
 										</div>
 										<div class="descrip">
-											<h4 class="heading2">Pets Puriest</h4>
-											<span class="price"><del class="discount-price">$62.00</del> $58.00</span>
+											<h4 class="heading2">Puriest Pet</h4>
+											<span class="price"><del class="discount-price">$420.00</del> $340.00</span>
 										</div>
 										<div class="text-center">
 											<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -194,7 +194,7 @@ session_start() ;
 									</div>
 									<div class="product-col">
 										<div class="img-holder">
-											<img src="https://via.placeholder.com/210x210" alt="food-img" class="img-responsive">
+											<img src="images/s5.jpg" alt="food-img" class="img-responsive">
 											<div class="over-holder">
 												<ul class="list-unstyled text-center share-list">
 													<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
@@ -204,8 +204,8 @@ session_start() ;
 											</div>
 										</div>
 										<div class="descrip">
-											<h4 class="heading2">Nutri-Pooch</h4>
-											<span class="price"><del class="discount-price">$62.00</del> $58.00</span>
+											<h4 class="heading2">Brown Kittens</h4>
+											<span class="price"><del class="discount-price">$602.00</del> $508.00</span>
 										</div>
 										<div class="text-center">
 											<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -213,7 +213,7 @@ session_start() ;
 									</div>
 									<div class="product-col">
 										<div class="img-holder">
-											<img src="https://via.placeholder.com/210x210" alt="food-img" class="img-responsive">
+											<img src="images/s6.jpg" alt="food-img" class="img-responsive">
 											<div class="over-holder">
 												<ul class="list-unstyled text-center share-list">
 													<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
@@ -223,8 +223,8 @@ session_start() ;
 											</div>
 										</div>
 										<div class="descrip">
-											<h4 class="heading2">Lintbells YuMove</h4>
-											<span class="price">$58.00</span>
+											<h4 class="heading2">Puppies</h4>
+											<span class="price">$380.00</span>
 										</div>
 										<div class="text-center">
 											<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>

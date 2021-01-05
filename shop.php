@@ -123,7 +123,7 @@ session_start() ;
 							<div class="product-block">
 								<div class="product-col">
 									<div class="img-holder">
-										<img src="https://via.placeholder.com/210x210" alt="food-img" class="img-responsive">
+										<img src="images/s1.jpg" alt="food-img" class="img-responsive">
 										<span class="sale-item">Sale!</span>
 										<div class="over-holder">
 											<ul class="list-unstyled text-center share-list">
@@ -134,8 +134,8 @@ session_start() ;
 										</div>
 									</div>
 									<div class="descrip">
-										<h3 class="heading2">Pawbits Joint</h3> 
-										<span class="price">$134.00</span>		
+										<h3 class="heading2">German Shepherd</h3> 
+										<span class="price">$1340.00</span>	
 									</div>
 									<div class="text-center">
 										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -143,7 +143,7 @@ session_start() ;
 								</div>
 								<div class="product-col">
 									<div class="img-holder">
-										<img src="images/main.jpg" alt="food-img" class="img-responsive">
+										<img src="images/s2.jpg" alt="food-img" class="img-responsive">
 										<div class="over-holder">
 											<ul class="list-unstyled text-center share-list">
 												<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
@@ -153,8 +153,8 @@ session_start() ;
 										</div>
 									</div>
 									<div class="descrip">
-										<h3 class="heading2">Pawbits Joint</h3> 
-										<span class="price">$134.00</span>		
+										<h3 class="heading2">Cat With Dog European</h3>
+									<span class="price">$2080.00</span>
 									</div>
 									<div class="text-center">
 										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -162,7 +162,7 @@ session_start() ;
 								</div>
 								<div class="product-col">
 									<div class="img-holder">
-										<img src="https://via.placeholder.com/210x210" alt="food-img" class="img-responsive">
+										<img src="images/s6.jpg" alt="food-img" class="img-responsive">
 										<span class="sale-item">Sale!</span>
 										<div class="over-holder">
 											<ul class="list-unstyled text-center share-list">
@@ -173,8 +173,8 @@ session_start() ;
 										</div>
 									</div>
 									<div class="descrip">
-										<h3 class="heading2">Maxxiflex+</h3> 
-										<span class="price">$28.00</span>		
+										<h3 class="heading2">Maxxiflex+ Puppies</h3>
+										<span class="price">$2850.00</span>	
 									</div>
 									<div class="text-center">
 										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -182,7 +182,7 @@ session_start() ;
 								</div>
 								<div class="product-col sold-item">
 									<div class="img-holder">
-										<img src="https://via.placeholder.com/210x210" alt="food-img" class="img-responsive">
+										<img src="images/s4.jpg" alt="food-img" class="img-responsive">
 										<div class="over-holder">
 											<ul class="list-unstyled text-center share-list">
 												<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
@@ -193,8 +193,7 @@ session_start() ;
 									</div>
 									<strong class="text-uppercase">sold out!</strong>
 									<div class="descrip">
-										<h3 class="heading2">Premier Pet+</h3>
-										<span class="price">$42.00</span>
+										<h3 class="heading2">Premier Kittens+</h3><span class="price">$420.00</span>
 									</div>
 									<div class="text-center">
 										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -202,7 +201,7 @@ session_start() ;
 								</div>
 								<div class="product-col">
 									<div class="img-holder">
-										<img src="https://via.placeholder.com/210x210" alt="food-img" class="img-responsive">
+										<img src="images/s5.jpg" alt="food-img" class="img-responsive">
 										<div class="over-holder">
 											<ul class="list-unstyled text-center share-list">
 												<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
@@ -212,8 +211,7 @@ session_start() ;
 										</div>
 									</div>
 									<div class="descrip">
-										<h3 class="heading2">Calcium Pills</h3> 
-										<span class="price">$30.00</span>		
+										<h3 class="heading2">Brown Kittenz</h3><span class="price">$300.00</span>
 									</div>
 									<div class="text-center">
 										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -221,7 +219,7 @@ session_start() ;
 								</div>
 								<div class="product-col">
 									<div class="img-holder">
-										<img src="https://via.placeholder.com/210x210" alt="food-img" class="img-responsive">
+										<img src="images/s10.jpg" alt="food-img" class="img-responsive">
 										<span class="sale-item">Sale!</span>
 										<div class="over-holder">
 											<ul class="list-unstyled text-center share-list">
@@ -232,8 +230,7 @@ session_start() ;
 										</div>
 									</div>
 									<div class="descrip">
-										<h3 class="heading2">Vitamin D3</h3> 
-										<span class="price">$134.00</span>		
+										<h3 class="heading2">Puppies</h3><span class="price"><del class="discount-price">$45.00</del> $420.00</span>	
 									</div>
 									<div class="text-center">
 										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -241,7 +238,7 @@ session_start() ;
 								</div>
 								<div class="product-col">
 									<div class="img-holder">
-										<img src="https://via.placeholder.com/210x210" alt="food-img" class="img-responsive">
+										<img src="images/s9.jpg" alt="food-img" class="img-responsive">
 										<div class="over-holder">
 											<ul class="list-unstyled text-center share-list">
 												<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
@@ -251,8 +248,7 @@ session_start() ;
 										</div>
 									</div>
 									<div class="descrip">
-										<h3 class="heading2">Pets Puriest</h3> 
-										<span class="price">$28.00</span>		
+										<h3 class="heading2">Puriest Pet</h3><span class="price">$280.00</span>
 									</div>
 									<div class="text-center">
 										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -260,7 +256,25 @@ session_start() ;
 								</div>
 								<div class="product-col">
 									<div class="img-holder">
-										<img src="https://via.placeholder.com/210x210" alt="food-img" class="img-responsive">
+										<img src="images/s14.jpg" alt="food-img" class="img-responsive">
+										<div class="over-holder">
+											<ul class="list-unstyled text-center share-list">
+												<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+												<li><a href="#"><i class="icon-refresh"></i></a></li>
+												<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>cA
+											</ul>
+										</div>
+									</div>
+									<div class="descrip">
+										<h3 class="heading2">Mature Cat</h3><span class="price"><del class="discount-price">$620.00</del> $580.00</span>	
+									</div>
+									<div class="text-center">
+										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
+									</div>
+								</div>
+								<div class="product-col">
+									<div class="img-holder">
+										<img src="images/s13.jpg" alt="food-img" class="img-responsive">
 										<div class="over-holder">
 											<ul class="list-unstyled text-center share-list">
 												<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
@@ -270,27 +284,8 @@ session_start() ;
 										</div>
 									</div>
 									<div class="descrip">
-										<h3 class="heading2">Nutri-Pooch</h3> 
-										<span class="price">$58.00</span>		
-									</div>
-									<div class="text-center">
-										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
-									</div>
-								</div>
-								<div class="product-col">
-									<div class="img-holder">
-										<img src="https://via.placeholder.com/210x210" alt="food-img" class="img-responsive">
-										<div class="over-holder">
-											<ul class="list-unstyled text-center share-list">
-												<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-												<li><a href="#"><i class="icon-refresh"></i></a></li>
-												<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="descrip">
-										<h3 class="heading2">Lintbells YuMove</h3> 
-										<span class="price">$36.00</span>		
+										<h3 class="heading2">American Breeds</h3> 
+										<span class="price">$1360.00</span>		
 									</div>
 									<div class="text-center">
 										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
@@ -342,8 +337,8 @@ session_start() ;
 												<li><a href="#" class="fa fa-star-o"></a></li>
 												<li><a href="#" class="fa fa-star-o"></a></li>
 											</ul>
-											<h3><a href="shop-detail.php">Premier Pet+ for Dogs</a></h3>
-											<span class="price">$30.00</span>
+											<h3><a href="shop-detail.php">Premier Dogs</a></h3>
+											<span class="price">$360.00</span>
 										</div>
 									</li>
 									<li>
@@ -358,8 +353,8 @@ session_start() ;
 												<li><a href="#" class="fa fa-star-o"></a></li>
 												<li><a href="#" class="fa fa-star-o"></a></li>
 											</ul>
-											<h3><a href="shop-detail.php">Nutri-Pooch Vitamin+</a></h3>
-											<span class="price">$30.00</span>
+											<h3><a href="shop-detail.php">New Variety</a></h3>
+											<span class="price">$300.00</span>
 										</div>
 									</li>
 									<li>
@@ -374,8 +369,8 @@ session_start() ;
 												<li><a href="#" class="fa fa-star-o"></a></li>
 												<li><a href="#" class="fa fa-star-o"></a></li>
 											</ul>
-											<h3><a href="shop-detail.php">Joint Support for Cats</a></h3>
-											<span class="price">$30.00</span>
+											<h3><a href="shop-detail.php">Joint Support Cats</a></h3>
+											<span class="price">$300.00</span>
 										</div>
 									</li>
 								</ul>
