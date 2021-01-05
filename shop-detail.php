@@ -141,7 +141,7 @@ session_start() ;
 										    <input class="form-control" type="number" value="1" min="0" max="1000">
 										</fieldset>
 									</form>
-									<a href="cart.html" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i> add to cart</a>
+									<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i> add to cart</a>
 									<ul class="list-unstyled text-center share-list">
 										<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
 										<li><a href="#"><i class="icon-refresh"></i></a></li>
@@ -189,7 +189,7 @@ session_start() ;
 											<span class="price"><del class="discount-price">$62.00</del> $58.00</span>
 										</div>
 										<div class="text-center">
-											<a href="cart.html" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
+											<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
 										</div>
 									</div>
 									<div class="product-col">
@@ -208,7 +208,7 @@ session_start() ;
 											<span class="price"><del class="discount-price">$62.00</del> $58.00</span>
 										</div>
 										<div class="text-center">
-											<a href="cart.html" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
+											<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
 										</div>
 									</div>
 									<div class="product-col">
@@ -227,7 +227,7 @@ session_start() ;
 											<span class="price">$58.00</span>
 										</div>
 										<div class="text-center">
-											<a href="cart.html" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
+											<a href="cart.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
 										</div>
 									</div>
 								</div>

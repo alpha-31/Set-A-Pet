@@ -184,7 +184,7 @@ session_start() ;
 									<strong class="price pull-right">$74.00</strong>
 								</li>
 							</ul>
-							<a href="checkout.html" class="btn-primary text-center text-uppercase">proceed to checkout</a>
+							<a href="checkout.php" class="btn-primary text-center text-uppercase">proceed to checkout</a>
 						</div>
 					</div>
 				</div>

@@ -138,7 +138,7 @@ session_start() ;
 										<span class="price">$134.00</span>		
 									</div>
 									<div class="text-center">
-										<a href="shop-detail.html" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
+										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
 									</div>
 								</div>
 								<div class="product-col">
@@ -157,7 +157,7 @@ session_start() ;
 										<span class="price">$134.00</span>		
 									</div>
 									<div class="text-center">
-										<a href="shop-detail.html" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
+										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
 									</div>
 								</div>
 								<div class="product-col">
@@ -177,7 +177,7 @@ session_start() ;
 										<span class="price">$28.00</span>		
 									</div>
 									<div class="text-center">
-										<a href="shop-detail.html" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
+										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
 									</div>
 								</div>
 								<div class="product-col sold-item">
@@ -197,7 +197,7 @@ session_start() ;
 										<span class="price">$42.00</span>
 									</div>
 									<div class="text-center">
-										<a href="shop-detail.html" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
+										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
 									</div>
 								</div>
 								<div class="product-col">
@@ -216,7 +216,7 @@ session_start() ;
 										<span class="price">$30.00</span>		
 									</div>
 									<div class="text-center">
-										<a href="shop-detail.html" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
+										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
 									</div>
 								</div>
 								<div class="product-col">
@@ -236,7 +236,7 @@ session_start() ;
 										<span class="price">$134.00</span>		
 									</div>
 									<div class="text-center">
-										<a href="shop-detail.html" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
+										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
 									</div>
 								</div>
 								<div class="product-col">
@@ -255,7 +255,7 @@ session_start() ;
 										<span class="price">$28.00</span>		
 									</div>
 									<div class="text-center">
-										<a href="shop-detail.html" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
+										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
 									</div>
 								</div>
 								<div class="product-col">
@@ -274,7 +274,7 @@ session_start() ;
 										<span class="price">$58.00</span>		
 									</div>
 									<div class="text-center">
-										<a href="shop-detail.html" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
+										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
 									</div>
 								</div>
 								<div class="product-col">
@@ -293,7 +293,7 @@ session_start() ;
 										<span class="price">$36.00</span>		
 									</div>
 									<div class="text-center">
-										<a href="shop-detail.html" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
+										<a href="shop-detail.php" class="btn-primary lg-round text-uppercase"><i class="icon-cart"></i>add to cart</a>
 									</div>
 								</div>
 							</div>
@@ -332,7 +332,7 @@ session_start() ;
 								<ul class="list-unstyled feature-list">
 									<li>
 										<div class="img-holder">
-											<a href="shop-detail.html"><img class="img-responsive" src="https://via.placeholder.com/70x70" alt="image"></a>
+											<a href="shop-detail.php"><img class="img-responsive" src="https://via.placeholder.com/70x70" alt="image"></a>
 										</div>
 										<div class="txt-holder">
 											<ul class="list-unstyled rating-list">
@@ -342,13 +342,13 @@ session_start() ;
 												<li><a href="#" class="fa fa-star-o"></a></li>
 												<li><a href="#" class="fa fa-star-o"></a></li>
 											</ul>
-											<h3><a href="shop-detail.html">Premier Pet+ for Dogs</a></h3>
+											<h3><a href="shop-detail.php">Premier Pet+ for Dogs</a></h3>
 											<span class="price">$30.00</span>
 										</div>
 									</li>
 									<li>
 										<div class="img-holder">
-											<a href="shop-detail.html"><img class="img-responsive" src="https://via.placeholder.com/70x70" alt="image"></a>
+											<a href="shop-detail.php"><img class="img-responsive" src="https://via.placeholder.com/70x70" alt="image"></a>
 										</div>
 										<div class="txt-holder">
 											<ul class="list-unstyled rating-list">
@@ -358,13 +358,13 @@ session_start() ;
 												<li><a href="#" class="fa fa-star-o"></a></li>
 												<li><a href="#" class="fa fa-star-o"></a></li>
 											</ul>
-											<h3><a href="shop-detail.html">Nutri-Pooch Vitamin+</a></h3>
+											<h3><a href="shop-detail.php">Nutri-Pooch Vitamin+</a></h3>
 											<span class="price">$30.00</span>
 										</div>
 									</li>
 									<li>
 										<div class="img-holder">
-											<a href="shop-detail.html"><img class="img-responsive" src="https://via.placeholder.com/70x70" alt="image"></a>
+											<a href="shop-detail.php"><img class="img-responsive" src="https://via.placeholder.com/70x70" alt="image"></a>
 										</div>
 										<div class="txt-holder">
 											<ul class="list-unstyled rating-list">
@@ -374,7 +374,7 @@ session_start() ;
 												<li><a href="#" class="fa fa-star-o"></a></li>
 												<li><a href="#" class="fa fa-star-o"></a></li>
 											</ul>
-											<h3><a href="shop-detail.html">Joint Support for Cats</a></h3>
+											<h3><a href="shop-detail.php">Joint Support for Cats</a></h3>
 											<span class="price">$30.00</span>
 										</div>
 									</li>

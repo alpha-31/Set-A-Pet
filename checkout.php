@@ -120,7 +120,7 @@ session_start() ;
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="txt-wrap">
-							<p>Returning customer? <a href="#">Click here to login</a></p>
+							<p>Returning customer? <a href="userLogin.php">Click here to login</a></p>
 						</div>
 						<div class="txt-wrap">
 							<p>Have a coupon?  <a href="#">Click here to enter your code</a></p>
@@ -226,7 +226,7 @@ session_start() ;
 						</table>
 						<div class="payment-holder">
 							<h2>Payment Method</h2>
-							<form  class="payment-form" action="#">
+							<form  class="payment-form" action="userSignup.php">
 								<div class="form-group"> 
 									<label>
 										<input type="checkbox" class="check" name="checkbox" value="value" checked>Cheque Payment
