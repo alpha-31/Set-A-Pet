@@ -3,27 +3,46 @@
  	include("connections.php");
  	include("functions.php");
 
- 	if($_SERVER['REQUEST_METHOD'] == "POST")
+ 
+	if(isset($_POST["submit"]))
 	{
-		$user_name = $_POST['user_name'];
-		$password = $_POST['password'];
+		// define variables and set to empty values
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "pet_corner";
 
-		if(!empty($user_name) && !empty($password) && !is_numeric($user_name))
-		{
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+    	die("Connection failed: " . $conn->connect_error);
+	} 
+		//echo "  CONNECTION ESTABLISHED \r\n";
+		//echo "  INSERTION IN PROCESS";
+		
+		$username = $_POST["user_name"];
+ 		$name = $_POST["name"];
+ 		$email= $_POST["email"];
+  		$number = $_POST["number"];
+  		$pass = $_POST["pass"];
 
-			//save to database
-			$user_id = random_num(20);
-			$query = "INSERT INTO USERS(user_id,user_name,password) VALUES ('$user_id','$user_name','$password')";
 
-			mysqli_query($con, $query);
+$sql = "INSERT INTO customer(user_name,Cust_name,Cust_Email,Cust_Number,Cust_Pass)
+VALUES ('$username','$name','$email','$number','$pass')";
+if ($conn->query($sql) == TRUE) {
+  echo'<div>
+  <h1 style="color:#f2f2f2;font-size:20px; font-family: "Roboto", sans-serif;margin:auto;">New record of id='
+  .$id. ' inserted successfully</h1>
+     </div>';
+     header("Location: userLogin.php");
+						die;
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
 
-			header("Location: userLogin.php");
-			die;
-		}else
-		{
-			echo "Values Incoreect Kindly enter some valid information!";
-		}
-	}
+$conn->close();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -64,6 +83,12 @@
 						Sign Up
 					</span>
 
+
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Name is required">
+						<span class="label-input100">Name</span>
+						<input class="input100" type="text" name="name" placeholder="Type your Name ">
+						<span class="focus-input100" data-symbol="&#xf206;"></span>
+					</div>
 					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is required">
 						<span class="label-input100">Username</span>
 						<input class="input100" type="text" name="user_name" placeholder="Type your username">
@@ -74,10 +99,15 @@
 						<input class="input100" type="text" name="email" placeholder="Type your email">
 						<span class="focus-input100" data-symbol="&#xf206;"></span>
 					</div>
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Number is required">
+						<span class="label-input100">Number</span>
+						<input class="input100" type="text" name="number" placeholder="Type your number">
+						<span class="focus-input100" data-symbol="&#xf206;"></span>
+					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
 						<span class="label-input100">Password</span>
-						<input class="input100" type="password" name="password" placeholder="Type your password">
+						<input class="input100" type="password" name="pass" placeholder="Type your password">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
 					<div class="text-right p-t-8 p-b-31">
@@ -88,7 +118,7 @@
 					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<button class="login100-form-btn">
+							<button class="login100-form-btn" name="submit">
 								Register
 							</button>
 						</div>
